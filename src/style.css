@@ -153,6 +153,43 @@ i:hover {
 }
 
 
+/***** Projects *****/
+
+.sub-section-alternative {
+    background-color: #333333;
+    color: #fff;
+    flex-direction: column;
+    padding: 80px; 
+}
+
+.projects {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    width: 100%;
+}
+
+h3 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
 /***** Footer *****/
 
 footer {
