@@ -3,12 +3,20 @@
 
 body {
     margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: Orbitron, sans-serif;
+}
+
+p {
+    font-size: 22px;
 }
 
 section {
-    height: 500px;
     background-color: #fff;
-    border: solid black 1px;
+    border: 0;
 }
 
 /***** Hero Section *****/
@@ -116,7 +124,36 @@ i:hover {
     color: #ef744b;
 }
 
-/* Footer */
+/***** SubSections *****/
+
+.sub-section {
+    /* Display flex lines up the div items horizontally */
+    display: flex;
+    justify-content: space-around;
+    padding: 80px; 
+}
+
+/***** About Me *****/
+
+.about {
+    padding: 50px 0 0 0;
+}
+
+.about-paragraph {
+    padding: 0 20px 0 0;
+}
+.headshot {
+    width: 100%;
+    border-radius: 175px;;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/***** Footer *****/
 
 footer {
     height: 500px;
