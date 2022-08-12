@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Orbitron:wght@400;600;700&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 500px;
+    background-color: #fff;
+    border: solid black 1px;
+}
+
+/***** Hero Section *****/
+
+.hero {
+    background-color: #333333;
+    height: 100vh;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    /* Make logo to left and nav to right */
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    margin: 10px 30px 30px 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 450px;
+    font-family: Montseratte, sans-serif;
+    justify-content: space-around;
+    font-size: 22px;
+    
+}
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+/* Hero Content */
+
+.hero-area {
+    display: flex;
+    /*flex-direction: column;*/
+    height: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Orbitron, sans-serif;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;
+}
+/* Button */
+.contact {
+    width: 180px;
+    height: 50px;
+    background-color: coral;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact:hover {
+    background-color: #ef744b;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    transform: translateY(-7px);
+  }
+
+.contact:active {
+    background-color: darkgray;
+}
+
+/* Socials*/
+.socials {
+  margin-right: 20px;
+}
+
+i {
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+i:hover {
+    color: #ef744b;
+}
+
+/* Footer */
+
+footer {
+    height: 500px;
+    background-color: lightpink;
+}
